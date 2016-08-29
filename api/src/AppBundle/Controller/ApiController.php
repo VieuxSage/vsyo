@@ -15,7 +15,7 @@ class ApiController extends FOSRestController
 {
     public function getTestAction() {
          return array(
-            'foo', 'bar'
+            'foo', 'bar', 'xyz'
         );
     }
 }
